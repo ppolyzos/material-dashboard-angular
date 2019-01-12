@@ -28,9 +28,8 @@ You can find the Github Repo here.
 
 Quick start options:
 
-- [Download from Github](https://github.com/tiniestory/material-dashboard-angular/archive/master.zip).
+- [Download from Github](https://github.com/tiniestory/material-dashboard-angular2/archive/master.zip).
 - [Download from Creative Tim](http://www.creative-tim.com/product/material-dashboard-angular2).
-- Clone the repo: `git clone https://github.com/tiniestory/material-dashboard-angular.git`.
 
 ## Terminal Commands
 
@@ -50,7 +49,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Within the download you'll find the following directories and files:
 
 ```
-md-free-angular-cli
+material-dashboard-angular
 ├── CHANGELOG.md
 ├── LICENSE.md
 ├── README.md
@@ -58,6 +57,7 @@ md-free-angular-cli
 ├── documentation
 ├── e2e
 ├── karma.conf.js
+├── package-lock.json
 ├── package.json
 ├── protractor.conf.js
 ├── src
@@ -95,6 +95,14 @@ md-free-angular-cli
 │   │   │   ├── icons.component.html
 │   │   │   ├── icons.component.spec.ts
 │   │   │   └── icons.component.ts
+│   │   ├── layouts
+│   │   │   └── admin-layout
+│   │   │       ├── admin-layout.component.html
+│   │   │       ├── admin-layout.component.scss
+│   │   │       ├── admin-layout.component.spec.ts
+│   │   │       ├── admin-layout.component.ts
+│   │   │       ├── admin-layout.module.ts
+│   │   │       └── admin-layout.routing.ts
 │   │   ├── maps
 │   │   │   ├── maps.component.css
 │   │   │   ├── maps.component.html
@@ -127,10 +135,11 @@ md-free-angular-cli
 │   │       └── user-profile.component.ts
 │   ├── assets
 │   │   ├── css
+│   │   │   └── demo.css
 │   │   ├── img
-│   │   └── sass
-│   │       ├── material-dashboard.scss
-│   │       └── md
+│   │   └── scss
+│   │       ├── core
+│   │       └── material-dashboard.scss
 │   ├── environments
 │   ├── favicon.ico
 │   ├── index.html
@@ -171,4 +180,4 @@ Instagram: <https://instagram.com/creativetimofficial>
 
 [CHANGELOG]: ./CHANGELOG.md
 
-[version-badge]: https://img.shields.io/badge/version-1.4.1-blue.svg
+[version-badge]: https://img.shields.io/badge/version-2.2.0-blue.svg

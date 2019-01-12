@@ -1,3 +1,31 @@
+## [2.2.0] - 2018-11-14
+### Changes
+- update to Angular 7
+- update all dependencies to match Angular 7 version
+
+## [2.1.1] - 2018-05-23
+### Fixes
+- changed some links
+
+## [2.1.0] - 2018-04-27
+### Fixes
+- changed file structure
+- moved documentation online
+
+## [2.0.0] - 2018-04-20
+### Fixes
+- added bootstrap 4
+- added angular 5
+
+## [1.4.2] - 2017-10-01
+### Fixes
+- added Perfect Scrollbar
+- added scrollTop on route change
+- added closeSidebar on mobile
+- autocompile scss files
+- fixes for IE
+- update package dependencies to 4.4.4
+
 ## [1.4.1] - 2017-09-19
 ### Material
 - added material.init()
